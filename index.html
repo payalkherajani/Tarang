@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://kit.fontawesome.com/83847ae630.js" crossorigin="anonymous"></script>
+    <title>TARANG</title>
+</head>
+
+<body>
+    <!-- SECTION-1 -->
+    <header>
+        <nav class="navbar">
+            <h1>TARANG</h1>
+            <button class="toggle toggle-blue" onclick="toggle('toggle-list')">
+                <img src="assets/svg/Hamburger_icon_white.svg" />
+            </button>
+            <ul class="toggle-list" id="toggle-list" style="display: none;">
+                <li>Buttons</li>
+                <li>Alerts</li>
+                <li>Cards</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SECTION-2 -->
+
+    <div class="container">
+
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li>Buttons</li>
+                    <li>Alerts</li>
+                    <li>Cards</li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main">
+            <!-- NAVABAR -->
+            <div class="component">
+
+                <!-- FIRST-NAVBAR -->
+                <h1>Navigation</h1>
+                <p class="lead">A navigation bar is a navigation header that is placed at the top of the page!</p>
+                <nav class="nav nav-dark">
+                    <h3>Navbar</h3>
+                    <button class="toggle" onclick="toggle('nav-list')">
+                        <img src="assets/svg/Hamburger_icon_white.svg" />
+                    </button>
+                    <ul class="nav-list" id='nav-list' style="display: none;">
+                        <li>Login</li>
+                        <li>SignUp</li>
+                        <li>Developers</li>
+                    </ul>
+                </nav>
+
+                <!-- SECOND-NAVBAR -->
+                <nav class="nav nav-outlined">
+                    <h3>Navbar</h3>
+                    <button class="toggle toggle-gray" onclick="toggle('nav-outlined-list')">
+                        <img src="assets/svg/Hamburger_icon_white.svg" />
+                    </button>
+                    <ul class="nav-list" id='nav-outlined-list' style="display: none;">
+                        <li>Login</li>
+                        <li>SignUp</li>
+                        <li>Developers</li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- BUTTONS -->
+            <div class="component">
+
+                <h1>Buttons</h1>
+                <p class="lead">The button tag defines a clickable button.</p>
+
+                <!-- FILLED BUTTONS -->
+                <div class="category">
+                    <button class="btn btn-primary">Primary</button>
+                    <button class="btn btn-secondary">Secondary</button>
+                    <button class="btn btn-info">Info</button>
+                    <button class="btn btn-success">Success</button>
+                    <button class="btn btn-warning">Warning</button>
+                    <button class="btn btn-danger">Danger</button>
+                </div>
+
+                <!-- OUTLINED BUTTONS -->
+                <div class="category">
+                    <button class="btn btn-outline-primary">Primary</button>
+                    <button class="btn btn-outline-secondary">Secondary</button>
+                    <button class="btn btn-outline-info">Info</button>
+                    <button class="btn btn-outline-success">Success</button>
+                    <button class="btn btn-outline-warning">Warning</button>
+                    <button class="btn btn-outline-danger">Danger</button>
+                </div>
+            </div>
+            <!-- AVATAR -->
+            <div class="component">
+                <h1>Avatar</h1>
+                <p>Description</p>
+                <div class="category">
+                    <img src="/assets/Images/avatar1.jpg" class="avatar avatar-lg" />
+                    <img src="assets/Images/avatar.png" class="avatar avatar-lg" />
+                </div>
+            </div>
+            <!-- ALERTS -->
+            <div class="component">
+                <h1>Alert</h1>
+                <p class="lead">A small Message for alerting user!</p>
+
+                <div class="alert alert-primary">
+                    I am Primary alert
+                </div>
+                <div class="alert alert-secondary">
+                    I am Secondary alert
+                </div>
+                <div class="alert alert-info">
+                    I am Info alert
+                </div>
+                <div class="alert alert-warning">
+                    I am Warning Alert
+                </div>
+                <div class="alert alert-success">
+                    I am Success alert
+                </div>
+                <div class="alert alert-danger">
+                    I am Danger alert
+                </div>
+
+            </div>
+            <!-- BADGES -->
+            <div class="component">
+                <h1>Badges</h1>
+                <p class="lead">Badges are used for notifications</p>
+                <div class="category">
+                    <button class="btn btn-google round badge-relative">
+                        <i class="fab fa-google"></i>
+                        <span class="badge">3</span>
+                    </button>
+                    <button class="btn btn-secondary badge-relative">
+                        Notifications<span class="badge">1</span>
+                    </button>
+                </div>
+                <div class="badge-relative">
+                    <span class="badge-image"></span>
+                    <img src="/assets/Images/avatar1.jpg" class="avatar avatar-lg" />
+                </div>
+            </div>
+            <!-- IMAGES -->
+            <div class="component">
+                <h1>Images</h1>
+                <p>To display responsive images</p>
+                <img src='assets/Images/bolivia.jpg' class="image">
+                <img src='assets/Images/sunflower.jpg' class="image" />
+            </div>
+
+            <!-- CARDS -->
+            <div class="component">
+                <h1>Cards</h1>
+                <p>Used to display text in a beautiful manner</p>
+                <div class="category">
+                    <div class="card">
+
+                    </div>
+                    <div class="card">
+
+                    </div>
+                    <div class="card">
+
+                    </div>
+                    <div class="card">
+
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    <!-- SECTION-3 -->
+
+    <footer>
+        <div class="footer-row">
+            <p>Made By: Payal Kherajani</p>
+            <a href="https://www.linkedin.com/in/payalkherajani/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/payalkherajani" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/payal_kherajani" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="functionality.js"> </script>
+</body>
+
+</html>

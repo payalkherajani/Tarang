@@ -1,0 +1,35 @@
+.alert{
+    position: relative;
+    padding: 0.95rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+.alert-primary{
+    background-color: var(--light-purple);
+    color: var(--purple)
+}
+.alert-secondary{
+    border: 1px solid rgba(0,0,0,0.1);
+    color: var(--gray)
+}
+.alert-info{
+    background-color: var(--light-blue);
+    color: var(--info);
+}
+.alert-warning{
+    background-color: var(--light-yellow);
+    color: var(--yellow);
+}
+.alert-success{
+    background-color: var(--light-green);
+    color: var(--green);
+}
+
+.alert-danger{
+    background-color: var(--light-red);
+    color: var(--danger);
+}

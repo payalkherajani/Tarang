@@ -1,0 +1,64 @@
+
+.btn{
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    color: var(--white);
+    text-transform: uppercase;
+    background-color: transparent;
+}
+.btn-primary{
+    background-color: var(--primary);
+}
+.btn-secondary{
+    border: 1px solid rgba(0,0,0,0.1);
+    color: var(--primary);
+}
+.btn-info{
+   background-color: var(--info);
+}
+.btn-success{
+    background-color: var(--success);
+}
+.btn-warning{
+    background-color: var(--warning);
+}
+.btn-danger{
+    background-color: var(--danger);
+}
+.btn-google{
+    background-color: #db4a39 ;
+}
+/* ---------------------------------------------------------------OUTLINED BUTTONS----------------------------------------------------------- */
+.btn-outline-primary{
+    border: 3px solid var(--primary);
+    color: var(--primary);
+}
+.btn-outline-secondary{
+    border: 3px solid rgba(0,0,0,0.1);
+    color: var(--primary);
+}
+.btn-outline-success{
+    border: 3px solid var(--success);
+    color: var(--primary);
+}
+.btn-outline-info{
+    border: 3px solid var(--info);
+    color: var(--primary);
+}
+.btn-outline-danger{
+    border: 3px solid var(--danger);
+    color: var(--primary);
+}
+.btn-outline-warning{
+    border: 3px solid var(--warning);
+    color: var(--primary);
+}
+@media only screen and (min-width: 768px){
+    .btn{
+        padding: 0.75rem 1.5rem;
+    }
+}

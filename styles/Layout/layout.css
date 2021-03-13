@@ -1,0 +1,93 @@
+/* -----------------------------------------------HEADER--------------------------------------------------------- */
+
+header{
+    margin: 5px;
+    padding: 5px;
+    background-color: var(--light-blue);
+    color: var(--info);
+    padding: 1.5rem 1rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-wrap: wrap;  
+}
+
+.toggle{
+    background-color: var(--primary);
+    outline: none;
+    border: none;
+}
+.toggle-list{
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+.toggle-gray{
+    background-color: var(--secondary);
+}
+.toggle-blue{
+    background-color: var(--light-blue);
+}
+/*---------------------------------------------------- CONTAINER------------------------------------------------- */
+.container{
+    margin: 5px;
+    padding: 5px;
+}
+.sidebar{
+    display: none;
+}
+.main{
+    width: 100%;
+}
+.component{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+.lead{
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+/* ---------------------------------------------------FOOTER----------------------------------------------------- */
+
+footer{
+    border: 1px solid red;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* ------------------------------------------------DESKTOP VIEW-------------------------------------------------- */
+@media only screen and (min-width: 768px){
+    header, footer{
+        margin: 1rem;
+    }
+    .container{
+        display: grid;
+        grid-template-areas: "sidebar main";
+        grid-template-columns: 1fr 3fr;
+        margin: 1rem;
+    }
+    .main{
+        grid-area: main;
+    }
+    .toggle , .toggle-list{
+        display: none !important;
+    }
+    .sidebar{
+       grid-area: sidebar;
+       display: flex;
+       flex-direction: column;
+    }
+}
