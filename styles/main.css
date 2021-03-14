@@ -44,6 +44,13 @@
     --light-green:#A7F3D0;
     --light-red:#FCA5A5;
     --light-gray: #f7f7f9;
+    --rainbow-red:#FF0000;
+    --rainbow-orange:#FF7F00;
+    --rainbow-yellow:#FFFF00;
+    --rainbow-green:#00FF00;
+    --rainbow-blue: #0000FF;
+    --rainbow-indigo:#4B0082;
+    --rainbow-violet:#9400D3;
 }
 
 *{
