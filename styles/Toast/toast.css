@@ -1,0 +1,22 @@
+.toast{
+    margin-bottom: 0.5rem;
+    max-width: 300px;
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.toast-header{
+    display: flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    gap: 3rem;
+    border-bottom: 2px solid var(--dark);
+}
+
+.toast-body{
+    padding: 0.75rem;
+}
+.toast-secondary{
+    background-color: var(--secondary);
+    color: var(--primary);
+}

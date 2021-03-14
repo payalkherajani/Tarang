@@ -7,6 +7,11 @@
 @import "/styles/Badges/badges.css";
 @import "/styles/Images/image.css";
 @import "/styles/Card/card.css";
+@import "/styles/Form/form.css";
+@import "/styles/Toast/toast.css";
+@import "/styles/Modal/modal.css";
+@import "/styles/Typography/typography.css";
+@import "/styles/Lists/list.css";
 
 /*----------------------------------------- || GENERAL STYLING--------------------------------------------------- */
 
@@ -38,6 +43,7 @@
     --light-yellow:#FDE68A;
     --light-green:#A7F3D0;
     --light-red:#FCA5A5;
+    --light-gray: #f7f7f9;
 }
 
 *{
