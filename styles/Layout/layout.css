@@ -8,6 +8,9 @@ header{
     padding: 1.5rem 1rem;
     position: fixed;
     top: 0; 
+    right: 0;
+    left: 0;
+    z-index: 1030;
     width: 100%;
     margin-bottom: 1rem;
 }
@@ -53,6 +56,7 @@ header{
     flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: 1rem;
+    position: relative;
 }
 .category{
     display: flex;
@@ -67,6 +71,9 @@ header{
 }
 .pre-div{
     display: none !important;
+}
+.flex-column{
+    flex-direction: column;
 }
 /* ---------------------------------------------------FOOTER----------------------------------------------------- */
 
