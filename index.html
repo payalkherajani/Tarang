@@ -82,10 +82,30 @@
                     </ul>
                 </nav>
 
-                <div onclick="showCode('navbar-filled')" class="pre-div">
-                    <i class="fas fa-angle-double-right"></i>
+                <div class="display-none">
+
+                    <div onclick="showCode('navbar-filled')" class="pre-div">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
+
+                    <div id='navbar-filled' class="pre-tag" style="display: none;">
+                        <pre>
+                            <code>
+                                &lt;nav class="nav nav-dark"&gt;
+                                    &lt;h3&gt;Navbar&lt;/h3&gt;
+                                    &lt;button class="toggle" onclick="toggle('nav-list')"&gt;
+                                    &lt;img src="assets/Favicon/Hamburger_icon_white.svg" /&gt;
+                                    &lt;/button&gt;
+                                    &lt;ul class="nav-list" id='nav-list' style="display: none;"&gt;
+                                        &lt;li&gt;Login&lt;/li&gt;
+                                        &lt;li&gt;SignUp&lt;/li&gt;
+                                        &lt;li&gt;Developers&lt;/li&gt;
+                                    &lt;/ul&gt;
+                                 &lt;/nav&gt;
+                            </code>
+                        </pre>
+                    </div>
                 </div>
-                <img src="assets/Images/Navbar-Primary.png" class="pre-tag" id='navbar-filled' style="display: none;" />
 
                 <!-- SECOND-NAVBAR -->
                 <nav class="nav nav-outlined">
@@ -100,11 +120,30 @@
                     </ul>
                 </nav>
 
-                <div onclick="showCode('navbar-secondary')" class="pre-div">
-                    <i class="fas fa-angle-double-right"></i>
+                <div class="display-none">
+
+                    <div onclick="showCode('navbar-secondary')" class="pre-div">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
+
+                    <div class="pre-tag" id='navbar-secondary' style="display: none;">
+                        <pre>
+                             <code>
+                                &lt;nav class="nav nav-outlined"&gt;
+                                    &lt;h3&gt;Navbar&lt;/h3&gt;
+                                    &lt;button class="toggle toggle-gray" onclick="toggle('nav-outlined-list')"&gt;
+                                    &lt;img src="assets/Favicon/Hamburger_icon_white.svg" /&gt;
+                                    &lt;/button&gt;
+                                        &lt;ul class="nav-list" id='nav-outlined-list' style="display: none;"&gt;
+                                            &lt;li&gt;Login&lt;/li&gt;
+                                            &lt;li&gt;SignUp&lt;/li&gt;
+                                            &lt;li&gt;Developers&lt;/li&gt;
+                                        &lt;/ul&gt;
+                                &lt;/nav&gt;
+                             </code>
+                        </pre>
+                    </div>
                 </div>
-                <img src="assets/Images/Navbar-Secondary.png" class="pre-tag" id='navbar-secondary'
-                    style="display: none;" />
 
             </div>
             <!-- BUTTONS -->
@@ -123,11 +162,27 @@
                     <button class="btn btn-danger">Danger</button>
                 </div>
 
-                <div onclick="showCode('filled-button')" class="pre-div">
-                    <i class="fas fa-angle-double-right"></i>
-                </div>
-                <img src="assets/Images/Filled-buttons.png" class="pre-tag" id='filled-button' style="display: none;" />
+                <div class="display-none">
 
+                    <div onclick="showCode('filled-button')" class="pre-div">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
+
+                    <div id='filled-button' class="pre-tag" style="display: none;">
+                        <pre>
+                            <code>
+                                &lt;div class="category"&gt;
+                                    &lt;button class="btn btn-primary"&gt;Primary&lt;/button&gt;
+                                    &lt;button class="btn btn-secondary"&gt;Secondary&lt;/button&gt;
+                                    &lt;button class="btn btn-info"&gt;Info&lt;/button&gt;
+                                    &lt;button class="btn btn-success"&gt;Success&lt;/button&gt;
+                                    &lt;button class="btn btn-warning"&gt;Warning&lt;/button&gt;
+                                    &lt;button class="btn btn-danger"&gt;Danger&lt;/button&gt;
+                               &lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
                 <!-- OUTLINED BUTTONS -->
                 <div class="category">
                     <button class="btn btn-outline-primary">Primary</button>
@@ -138,11 +193,30 @@
                     <button class="btn btn-outline-danger">Danger</button>
                 </div>
 
-                <div onclick="showCode('outlined-buttons')" class="pre-div">
-                    <i class="fas fa-angle-double-right"></i>
+
+
+                <div class="display-none">
+
+                    <div onclick="showCode('outlined-buttons')" class="pre-div">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
+
+                    <div class="pre-tag" id='outlined-buttons' style="display: none;">
+                        <pre>
+                            <code>
+                                &lt;div class="category"&gt;
+                                    &lt;button class="btn btn-outline-primary"&gt;Primary&lt;/button&gt;
+                                    &lt;button class="btn btn-outline-secondary"&gt;Secondary&lt;/button&gt;
+                                    &lt;button class="btn btn-outline-info"&gt;Info&lt;/button&gt;
+                                    &lt;button class="btn btn-outline-success"&gt;Success&lt;/button&gt;
+                                    &lt;button class="btn btn-outline-warning"&gt;Warning&lt;/button&gt;
+                                    &lt;button class="btn btn-outline-danger"&gt;Danger&lt;/button&gt;
+                                &lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
                 </div>
-                <img src="assets/Images/Outlined-buttons.png" class="pre-tag" id='outlined-buttons'
-                    style="display: none;" />
+
             </div>
             <!-- AVATAR -->
             <div class="component">
@@ -157,7 +231,6 @@
                 <div onclick="showCode('avatars')" class="pre-div">
                     <i class="fas fa-angle-double-right"></i>
                 </div>
-                <img src="assets/Images/Avatars.png" class="pre-tag" id='avatars' style="display: none;" />
 
             </div>
             <!-- ALERTS -->
@@ -187,7 +260,6 @@
                 <div onclick="showCode('alerts')" class="pre-div">
                     <i class="fas fa-angle-double-right"></i>
                 </div>
-                <img src="assets/Images/Alerts.png" class="pre-tag" id='alerts' style="display: none;" />
 
             </div>
             <!-- BADGES -->
@@ -443,10 +515,10 @@
 
     <footer>
         <div class="footer-row">
-            <p>Made By: Payal Kherajani</p>
-            <a href="https://www.linkedin.com/in/payalkherajani/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/payalkherajani" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://twitter.com/payal_kherajani" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/payalkherajani/" target="_blank"><i
+                    class="fab fa-linkedin icon"></i></a>
+            <a href="https://github.com/payalkherajani" target="_blank"><i class="fab fa-github icon"></i></a>
+            <a href="https://twitter.com/payal_kherajani" target="_blank"><i class="fab fa-twitter icon"></i></a>
         </div>
     </footer>
 

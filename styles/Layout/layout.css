@@ -36,6 +36,24 @@ header{
 .toggle-blue{
     background-color: var(--light-blue);
 }
+.ht-t{
+    color: var(--rainbow-red);
+}
+.ht-a{
+    color: var(--rainbow-orange);
+}
+.ht-r{
+    color: var(--rainbow-yellow);
+}
+.ht-aa{
+    color: var(--rainbow-green);
+}
+.ht-n{
+    color: var(--rainbow-blue);
+}
+.ht-g{
+    color: var(--rainbow-indigo);
+}
 /*---------------------------------------------------- CONTAINER------------------------------------------------- */
 .container{
     margin: 5px;
@@ -46,7 +64,7 @@ header{
 }
 .main{
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 .component{
     width: 100%;
@@ -69,24 +87,47 @@ header{
     font-size: 1rem;
     font-weight: 300;
 }
-.pre-div{
-    display: none !important;
-}
+
 .flex-column{
     flex-direction: column;
+}
+.sidebar-list-item{
+    padding: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 1rem;
+}
+.sidebar-list-group{
+    padding: 0.75rem;
+}
+.display-none{
+    display: none;
 }
 /* ---------------------------------------------------FOOTER----------------------------------------------------- */
 
 footer{
-    border: 1px solid red;
     margin: 5px;
     padding: 5px;
 }
-
+.footer-row{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    align-items: center;
+}
+.icon{
+    color: var(--primary);
+    font-size: 2rem;
+}
 /* ------------------------------------------------DESKTOP VIEW-------------------------------------------------- */
 @media only screen and (min-width: 768px){
+    .icon{
+        font-size: 3rem;
+    }
     header{
         position: relative;
+        background-color: var(--white);
     }
     header, footer{
         margin: 1rem;
@@ -95,10 +136,11 @@ footer{
         display: grid;
         grid-template-areas: "sidebar main";
         grid-template-columns: 1fr 3fr;
-        margin: 1rem;
+        margin: 0.5rem;
     }
     .main{
         grid-area: main;
+        margin-top: 1rem;
     }
     .toggle , .toggle-list{
         display: none !important;
@@ -107,12 +149,25 @@ footer{
        grid-area: sidebar;
        display: flex;
        flex-direction: column;
+       position: fixed;
     }
-    .pre-div{
-        display: block !important;
+
+    .display-none{
+        display: block;
     }
     .pre-tag{
         height: auto;
         width: 100%;
+        background-color: var(--light-gray);
     }
+    .sidebar-list-item{
+        padding: 0.5rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 3px;
+    }
+    footer{
+        padding: 1rem;
+    }
+   
 }
