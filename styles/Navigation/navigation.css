@@ -7,6 +7,7 @@
    align-items: center;
    justify-content: space-between;
    padding: 1rem 0.5rem;
+   margin-bottom: 0.5rem;
 }
 .nav-dark{
     background-color: var(--primary);

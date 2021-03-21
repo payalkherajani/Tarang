@@ -86,6 +86,7 @@ header{
     letter-spacing: 1px;
     font-size: 1rem;
     font-weight: 300;
+    margin-bottom: 0.5rem;
 }
 
 .flex-column{
