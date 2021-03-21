@@ -169,5 +169,8 @@ footer{
     footer{
         padding: 1rem;
     }
+    .gray{
+        color: #374151;
+    }
    
 }
