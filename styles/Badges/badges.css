@@ -1,22 +1,39 @@
 .round{
     border: 1px solid var(--danger);
 }
-.badge-relative{
-    position: relative;
-
-}
 .badge{
     position: absolute;
     color: var(--primary);
     top: 0;
     right: 2px;
 }
+.badge-relative{
+    position: relative;
+}
+.badge-div{
+    position: relative;
+    color: var(--primary);
+}
 .badge-image{
-  height: 15px;
-  width: 15px;
-  background-color: var(--success);
-  border-radius: 50%;
-  display: inline-block;
-  position: absolute;
-  left: 0px;
+    height: 15px;
+    width: 15px;
+    background-color: var(--success);
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid var(--primary);
+}
+.left{
+    left: 0px;
+    bottom: 0px;
+  }
+.right{   
+    right: 0px;
+    bottom: 0px;   
+}
+
+.top{
+    top: 0px;
+}
+.bottom{
+    bottom: 0px;
 }
