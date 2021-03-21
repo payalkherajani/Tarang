@@ -11,7 +11,7 @@ A component Library that has in built components using HTML and CSS. Mobile and 
 > ``` @import url('https://taarang.netlify.app/styles/main.css')  ```
 
 *IN HTML*
-> ``` <link rel="stylesheet" href="styles/main.css"> ```
+> ``` <link rel="stylesheet" href="https://taarang.netlify.app/styles/main.css"> ```
 
 ![Desktop-view](/assets/Images/desktop-view.png)
 
